@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .main-header{
     background-image: url(./assets/main-bg.jpg);
     background-size: cover;
@@ -16,6 +19,9 @@
 .nav-link,#logo{
     color: white !important;
 }
+#logo{
+    text-align: left;
+}
 @media (max-width: 991px){
     .main-row{
         max-height: 80%;
@@ -23,8 +29,20 @@
     }
     
 }
+@media (min-width:576px) {
+    .main-row{
+        font-size:4x;
+
+    }
+    
+    
+}
+#navbarSupportedContent{
+    text-align: center;
+}
 .main-row{
     text-align: center;
+    flex-wrap: wrap;
 }
 .main-col{
     max-width: 100vw !important;
@@ -37,7 +55,7 @@
 .main-title{
     width: 100%;
     padding-top: 10%;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Bebas Neue';
     font-weight: bold;
     font-style: normal;
