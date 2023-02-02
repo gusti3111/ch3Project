@@ -67,3 +67,14 @@
 
 
 }
+.main-gallery{
+    background-image: url('/assets/features.jpg');
+  
+}
+.gallery-main-image{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
