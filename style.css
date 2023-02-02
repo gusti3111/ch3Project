@@ -55,26 +55,63 @@
 .main-title{
     width: 100%;
     padding-top: 10%;
-    font-size: 2rem;
-    font-family: 'Bebas Neue';
+    font-size: 80px;
+    font-family: 'BEBAS NEUE';
     font-weight: bold;
     font-style: normal;
 }
 .main-desc{
     line-height: 4rem;
-    font-family: 'Bebas Neue';
+    font-size: 36px;
+    font-family: 'BEBAS NEUE';
     font-size: 1.5rem;
+    font-weight: bold;
 
 
 }
-.main-gallery{
-    background-image: url('/assets/features.jpg');
-  
+.story-button{
+    line-height: 4rem;
+    text-align: center;
 }
-.gallery-main-image{
+
+.story-link{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+
+}    
+
+
+.options-isi{
+    padding-top: 10%;
+    background-image: url('/assets/the-games-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.title-kiri{
+    display: block;
+    
 
+    text-align: center;
+    
+
+}
+.options-kanan{
+    display: block;
+
+}
+.judul-options, .thegame{
+  
+    color: white;
+    opacity: 0.2;
+    font-family: 'BEBAS NEUE';
+    text-align: center;
+    font-weight: bold;
 }

@@ -48,10 +48,10 @@
                   
             
                   <li class="nav-item  ">
-                    <a class="nav-link px-4 " aria-current="page" href="" id="home">HOME</a>
+                    <a class="nav-link px-4 " aria-current="page" href="#home" id="home">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-4 " aria-current="page" href="/" id="work">WORK</a>
+                    <a class="nav-link px-4 " aria-current="page" href="#options" id="options-menu">OPTIONS</a>
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link px-4 " aria-current="page" href="#galery" id="contact">CONTACT</a>
@@ -84,66 +84,86 @@
           </div>
         </div>
       </nav>
-      <!-- Main Call function -->
-      <div class="main-row d-flex flex-row-reverse" id="main-row">
-        <div class="col main-col">
-          <h1 class=" main-title text-center" id="main-title">PlAY TRADITIONAL GAME</h1>
-          <h3 class=" main-desc text-center" id="main-desc">Experience new traditional gameplay</h3>
-          <button class="btn btn-warning btn-lg  ">PLAY NOW</button>
-
-        </div>
-       
-      </div>
-      <div class="col" id="story ">
-        <a href="#galery" class="header-scroll-link-wrapper">
-          <p class="header-scroll-toggle">THE STORY</p>
-          
-        </a>
-
-      </div>
       
+      <div>
+         <!-- Main Call function -->
+      
+        <div class="main-row " id="main-row">
+          <div class="col main-col">
+            <h1 class=" main-title text-center" id="main-title">PlAY TRADITIONAL GAME</h1>
+            <h2 class=" main-desc text-center" id="main-desc">Experience new traditional gameplay</h2>
+            <button class="btn btn-warning btn-lg play  ">PLAY NOW</button>
+            <div class="col story-button" id="story-button ">
+              <a href="#options" class="header-scroll-link-wrapper story-link">
+                <p class="header-scroll-toggle story">THE STORY</p>
+                <svg class="scroll-down " width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21.5786 1.83362H1.32422L11.338 10.0027L21.5786 1.83362Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </a>
+      
+            </div>
+  
+          </div>
+         
+        </div>
+     
+        
+
+      </div>
+     
       
       
       
 
   </header>
-  <section class="galery" id="galery">
-    <div class="main-gallery">
-      <img class="gallery-main-image" src="/assets/the-games-bg.jpg" alt="">
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-      
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="ny.jpg" alt="New York" class="d-block w-100">
-          </div>
-        </div>
-      
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
+  <section class="options" id="options">
+    <div class="row ml-5 options-isi ">
+      <div class="col-5  options-kiri ">
+        <h3 class="judul-options">
+          What's So Special?
+        </h3>
+        <h1 class="thegame">THE GAMES</h1>
       </div>
+      <div class="col-7 options-kanan d-flex align-self-end">
+        <div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+        
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/rockpaperstrategy-1600.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/rockpaperstrategy-1600.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/rockpaperstrategy-1600.jpg" alt="" class="d-block w-100">
+            </div>
+          </div>
+        
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        
+  
+      </div>
+  
+
+      </div>
+    
       
-
-    </div>
-
   </section>
   
 
